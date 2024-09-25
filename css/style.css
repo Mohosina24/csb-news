@@ -1,0 +1,73 @@
+@import url('https://fonts.maateen.me/adorsho-lipi/font.css');
+@import url('https://fonts.maateen.me/charu-chandan-3d/font.css');
+
+body{
+
+    overflow-x: hidden;
+    font-family:  Arial, sans-serif !important;
+}
+/*section two */
+.bg-blue{
+    background-color: #05225e;
+}
+.bg-footer{
+    background-color: #093184;
+}
+.text-color{
+    color: #074072;
+}
+.bg-color{
+    background: linear-gradient(to top,white, #064dd7);
+}
+
+/*navber*/
+.navbar li a:hover{
+    padding: 5px 5px;
+    background-color: #92b1d0;
+     border-radius: 10px;
+    transition: 1s;
+}
+/*footer css*/
+.social-media {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #110101;
+}
+
+/*media Qurey*/
+
+/*mobile are jonno*/
+@media screen and (min-width: 0px) and (max-width: 576px) {
+
+
+
+
+
+
+}
+/*tab device*/
+@media screen and (min-width:577px) and (max-width:768px){
+
+}
+/*md device are jonno*/
+@media screen and (min-width:769px) and (max-width:992px) {
+
+}
+/*lg device are jonno*/
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+}
+
+/*xl are jonno*/
+
+@media screen and (min-width:1201px) and (max-width:1400px) {
+
+}
+
+
+
+/*xxl are jonno */
+@media screen and (min-width: 1401px) {
+
+}
