@@ -17,7 +17,10 @@ body{
     color: #074072;
 }
 .bg-color{
-    background: linear-gradient(to top,white, #064dd7);
+     background: linear-gradient(to top,white, #064dd7);
+ }
+.bg-color1{
+    background: linear-gradient(to top, #1064af, #0e7ec7, #1247b1);
 }
 
 /*navber*/
@@ -39,29 +42,107 @@ body{
 
 /*mobile are jonno*/
 @media screen and (min-width: 0px) and (max-width: 576px) {
+/*logo*/
+    .logo{
+        width: 50%;
+    }
+/*menuicon*/
+    .navbar-toggler {
+        font-size: 20px;
 
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
 
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 
+    }
+    .icon {
+        width: 20%;
+    }
+    button{
+        font-size:13px;
+    }
+
+/*    footer css*/
+
+    .footerlogo{
+        width: 50%;
+    }
 
 
 
 }
 /*tab device*/
 @media screen and (min-width:577px) and (max-width:768px){
+    /*logo*/
+    .logo{
+        width:100%;
+    }
+    /*menuicon*/
+    .navbar-toggler {
+        font-size: 20px;
+
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+    }
+    .icon {
+        width: 20%;
+    }
+    button{
+        font-size:13px;
+    }
+
+    .nav-link{
+    font-size:12px;
+}
+    /*    footer css*/
+
+    .footerlogo{
+        width: 30%;
+    }
+
 
 }
 /*md device are jonno*/
 @media screen and (min-width:769px) and (max-width:992px) {
+    /*logo*/
+    .logo{
+        width: 100%;
+    }
 
 }
 /*lg device are jonno*/
 @media screen and (min-width:993px) and (max-width:1200px) {
-
+    /*logo*/
+    .logo{
+        width: 70%;
+    }
 }
+/*    footer css*/
+
+.footerlogo{
+    width:50%;
+}
+
 
 /*xl are jonno*/
 
 @media screen and (min-width:1201px) and (max-width:1400px) {
+    .logo{
+        width:50%;
+    }
+    .footerlogo{
+        width: 60%;
+    }
 
 }
 
@@ -69,5 +150,10 @@ body{
 
 /*xxl are jonno */
 @media screen and (min-width: 1401px) {
-
+    .logo{
+        width:50%;
+    }
+    .nav-link{
+        font-size:20px;
+    }
 }
