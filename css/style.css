@@ -27,6 +27,10 @@ body{
 .logo{
     width: 7%;
 }
+/*headnav*/
+.headnav  li  a{
+    font-size: 15px;
+}
 /*navber*/
 .navbar li a:hover{
     padding: 5px 5px;
@@ -52,12 +56,12 @@ body{
     width: 40px;
     height: 40px;
     padding: 10px;
-    background-color: #110101;
+    background-color: #0d2f79;
 }
 
 /*footerlogo*/
 .footerlogo{
-    width: 80%;
+    width: 40%;
 }
 
 
@@ -67,8 +71,8 @@ body{
 /*mobile are jonno*/
 @media screen and (min-width: 0px) and (max-width: 576px) {
     /*logo*/
-    .hiddenlogo{
-        width: 50%;
+    .logo{
+        width: 17%;
 
     }
     h1 {
@@ -117,7 +121,7 @@ body{
 
     /*    footer css*/
     .footerlogo{
-        width: 40%;
+        width: 30%;
     }
 
 
@@ -130,9 +134,13 @@ body{
     .logo{
         width: 10%;
     }
-    .hiddenlogo{
-        width: 50%;
 
+    /*headnav*/
+    .headnav  li  a{
+        font-size: 11px;
+    }
+    span{
+        font-size: 8px;
     }
     /*detail paragraph*/
     .dpara {
@@ -195,7 +203,7 @@ body{
     /*    footer css*/
 
     .footerlogo{
-        width: 30%;
+        width: 15%;
     }
 
 
@@ -208,6 +216,13 @@ body{
     /*logo*/
     .logo{
         width: 9%;
+    }
+    /*headnav*/
+    .headnav  li  a{
+        font-size: 11px;
+    }
+    span{
+        font-size: 8px;
     }
     /*detail paragraph*/
     .dpara {
@@ -238,7 +253,7 @@ body{
         height: 40px;
     }
     .footerlogo{
-        width: 30%;
+        width: 15%;
     }
 
 }
@@ -248,6 +263,13 @@ body{
     /*logo*/
     .logo{
         width:9%;
+    }
+    /*headnav*/
+    .headnav  li  a{
+        font-size: 14px;
+    }
+    span{
+        font-size: 12px;
     }
     h6{
         font-size: 12px;
@@ -311,7 +333,7 @@ body{
     }
 
     .footerlogo{
-        width: 80%;
+        width: 30%;
     }
 
 }
@@ -330,5 +352,8 @@ body{
     }
     .nav-link{
         font-size:20px;
+    }
+    .footerlogo{
+        width: 30%;
     }
 }
