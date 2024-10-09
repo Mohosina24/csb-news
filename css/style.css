@@ -1,10 +1,13 @@
-@import url('https://fonts.maateen.me/adorsho-lipi/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @import url('https://fonts.maateen.me/charu-chandan-3d/font.css');
 
 body{
 
     overflow-x: hidden;
-    font-family:  Arial, sans-serif !important;
+    /*font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: sans-serif;
+
 }
 /*section two */
 .bg-blue{
@@ -23,6 +26,20 @@ body{
     /*background: linear-gradient(to top, #107fe0, #52a0d5, #4697cb);*/
     background-color: #2ba8ea;
 }
+.section-width{
+    width: 92%;
+}
+.roboto-bold {
+    font-family: "Roboto", sans-serif ,Arial;
+    font-weight: 700;
+    font-style: normal;
+}
+.text-font
+{
+    font-family: sans-serif,Arial;
+    font-weight: normal;
+}
+
 /*header logo*/
 .logo{
     width: 7%;
@@ -35,7 +52,6 @@ body{
 .navbar li a:hover{
     padding: 5px 5px;
     background-color: #92b1d0;
-    border-radius: 10px;
     transition: 1s;
 }
 /*detail page css*/
@@ -329,7 +345,7 @@ body{
     }
     /*naber*/
     .nav-link{
-        font-size:20px;
+        font-size:16px;
     }
 
     .footerlogo{
