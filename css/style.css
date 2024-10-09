@@ -146,10 +146,17 @@ body{
 }
 /*tab device*/
 @media screen and (min-width:577px) and (max-width:768px){
+
+    .px-md-1 {
+        /* padding-right: 0.25rem !important; */
+        font-size: 11px !important;
+        /* padding-left: 0.25rem !important; */
+    }
     /*logo*/
     .logo{
         width: 10%;
     }
+
 
     /*headnav*/
     .headnav  li  a{
@@ -207,6 +214,7 @@ body{
     button{
         font-size:13px;
     }
+
 
     .nav-link{
         font-size:12px;
