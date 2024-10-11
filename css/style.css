@@ -24,7 +24,7 @@ body{
 }
 .bg-color1{
     /*background: linear-gradient(to top, #107fe0, #52a0d5, #4697cb);*/
-    background-color: #2ba8ea;
+    background-color: #183f7f;
 }
 .section-width{
     width: 92%;
@@ -33,6 +33,9 @@ body{
     font-family: "Roboto", sans-serif ,Arial;
     font-weight: 700;
     font-style: normal;
+}
+.text-gray{
+    color: #a1a0a0;
 }
 .text-font
 {
@@ -79,7 +82,15 @@ body{
 .footerlogo{
     width: 40%;
 }
-
+.link a{
+    font-size:13px;
+}
+.link p{
+    font-size:13px;
+}
+.link span{
+   font-size: 10px;
+}
 
 
 /*media Qurey*/
